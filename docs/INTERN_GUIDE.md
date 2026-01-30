@@ -1,9 +1,11 @@
 # IoT Device Inventory System - Intern Guide
 
 ## Project Overview
-This is the starter codebase for the IoT Device Inventory System. The goal is to create an application that allows IoT team members to check out IoT devices and phones for data generation purposes.
+This is the starter codebase for the IoT Device Inventory System. 
+The goal is to create an application that allows IoT team members to check out IoT devices and phones for data generation purposes.
 
-**Important**: This is a learning project! The current codebase is intentionally incomplete. Your job is to add the missing functionality and learn about software development in the process.
+**Important**: This is a learning project! The current codebase is intentionally incomplete. 
+Your job is to add the missing functionality and learn about software development in the process.
 
 ## What This Project Currently Has
 
@@ -101,7 +103,7 @@ Based on the project description, you can focus on different areas:
 **Tasks to implement**:
 1. Create a GitHub Actions workflow that builds the project
 2. Add automatic test running on pull requests
-3. Set up code linting
+3. Set up code linting (Done for you!)
 4. Create release builds with versioning
 
 **Skills you'll learn**: GitHub Actions, automation, DevOps basics
@@ -149,35 +151,6 @@ For lists that automatically update the UI when items are added/removed:
 ```csharp
 public ObservableCollection<Device> Devices { get; set; }
 ```
-
-## Suggested First Steps
-
-1. **Week 1-2: Get familiar**
-   - Build and run the application
-   - Read through all the existing code
-   - Research WPF basics and MVVM pattern
-   - Set up your development environment
-
-2. **Week 3-4: Display data**
-   - Add a DataGrid to show devices
-   - Bind it to the sample data from the service
-   - Get one tab fully working before moving on
-
-3. **Week 5-6: Add functionality**
-   - Implement "Add Device" button
-   - Create a dialog to input device information
-   - Save the device to the data service
-
-4. **Week 7-8: Core features**
-   - Implement checkout functionality
-   - Show phone-device associations
-   - Add check-in capability
-
-5. **Week 9+: Polish and extras**
-   - Add search/filter
-   - Write unit tests
-   - Improve UI/UX
-   - Add data persistence
 
 ## Resources
 

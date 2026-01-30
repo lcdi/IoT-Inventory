@@ -203,14 +203,4 @@ git reset --soft HEAD~1
 git reset --hard HEAD~1
 ```
 
-## Remember
-
-- 🎯 Focus on learning, not perfection
-- 🤝 Help each other out
-- 💬 Ask questions when stuck
-- ✅ Test your code
-- 📝 Write clear commit messages
-- 🔍 Review others' code thoughtfully
-- 🎉 Celebrate your progress!
-
 Happy coding!

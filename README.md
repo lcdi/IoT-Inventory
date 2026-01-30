@@ -77,7 +77,7 @@ Through this project, interns will gain experience with:
 - ✅ Mock data service
 - ✅ Simple UI layout with tabs
 
-## Planned Features (Your Work!)
+## Planned Features
 - ⬜ Display devices and phones in data grids
 - ⬜ Add new devices and phones
 - ⬜ Check out devices with phones
@@ -93,7 +93,7 @@ Through this project, interns will gain experience with:
 - [Intern Onboarding Guide](docs/INTERN_GUIDE.md) - Comprehensive guide for getting started
 - [CommunityToolkit.Mvvm Guide](docs/COMMUNITYTOOLKIT_MVVM_GUIDE.md) - Complete guide to the MVVM toolkit (team standard!)
 - [Contributing Guide](docs/CONTRIBUTING.md) - Code standards and PR process
-- [Original Project Proposal](IoTE_Internship_Planning.pdf) - The vision for this project
+- [Original Project Proposal](docs/IoTE_Internship_Planning.pdf) - The vision for this project
 
 ## Questions or Issues?
 - Review the documentation first
@@ -106,4 +106,4 @@ Internal use for Leahy Center for Digital Investigation.
 
 ---
 
-**Remember**: This is a learning project. Making mistakes is part of the process. Focus on learning, collaboration, and growth! 🚀
+**Remember**: This is a learning project. Making mistakes is part of the process. Focus on learning, collaboration, and growth!
