@@ -1,5 +1,4 @@
 <Project Sdk="Microsoft.NET.Sdk">
-
   <PropertyGroup>
     <TargetFramework>net10.0-windows</TargetFramework>
     <Nullable>enable</Nullable>
@@ -18,5 +17,4 @@
   <ItemGroup>
     <ProjectReference Include="..\..\src\IoTInventory\IoTInventory.csproj" />
   </ItemGroup>
-
 </Project>
