@@ -7,11 +7,11 @@ This project uses **CommunityToolkit.Mvvm** - the same toolkit your production t
 CommunityToolkit.Mvvm is a modern, fast, and modular MVVM toolkit. It uses **source generators** to automatically create boilerplate code for you, making MVVM development much simpler and less error-prone.
 
 ### Key Benefits
-- ✅ Less boilerplate code to write
-- ✅ Type-safe code generation
-- ✅ Better performance than reflection-based approaches
-- ✅ Industry standard (used by Microsoft and many teams)
-- ✅ Same as your production team uses!
+- Less boilerplate code to write
+- Type-safe code generation
+- Better performance than reflection-based approaches
+- Industry standard (used by Microsoft and many teams)
+- Same as your production team uses!
 
 ## Core Components
 
@@ -30,7 +30,7 @@ public partial class DeviceViewModel : ObservableObject
 }
 ```
 
-⚠️ **Important**: Notice the `partial` keyword - required for source generators!
+**Important**: Notice the `partial` keyword - required for source generators!
 
 ---
 
@@ -431,7 +431,7 @@ private bool CanRefresh() => !IsLoading;
 
 ## Best Practices
 
-### ✅ DO:
+### DO:
 - Use `partial` class for ViewModels
 - Use `[ObservableProperty]` for all properties the UI needs to observe
 - Use `[RelayCommand]` for all UI actions
@@ -440,7 +440,7 @@ private bool CanRefresh() => !IsLoading;
 - Use `ObservableCollection<T>` for lists that change
 - Use descriptive command names (AddDeviceCommand, not AddCommand)
 
-### ❌ DON'T:
+### DON'T:
 - Don't reference UI elements (TextBox, Button, etc.) in ViewModels
 - Don't put database code in ViewModels
 - Don't forget the `partial` keyword

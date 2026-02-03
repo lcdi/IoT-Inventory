@@ -1,4 +1,8 @@
 # IoT Device Inventory System - Intern Guide
+Note: The documentation found here is about the specifics to the **intern project only.**
+For guides that pertain to both the IoT-Extraction team and the IoT-Programming team, please be sure to read
+the full team documentation at The IoT-Extraction DocSite http://192.168.104.15/docs/onboarding/welcome.html
+(only accessible while on Leahy Center network).
 
 ## Project Overview
 This is the starter codebase for the IoT Device Inventory System. 
@@ -9,13 +13,13 @@ Your job is to add the missing functionality and learn about software developmen
 
 ## What This Project Currently Has
 
-### ✅ Basic Structure
+### Basic Structure
 - WPF application skeleton
 - Basic model classes (Device, Phone, CheckOut)
 - Mock data service with sample data
 - Simple UI layout with tabs
 
-### ❌ What's Missing (Your Work!)
+### What's Missing?
 - **Data display**: DataGrids to show devices and phones
 - **CRUD operations**: Add, edit, delete functionality
 - **Checkout system**: Ability to check out devices with phones
@@ -60,7 +64,7 @@ dotnet run
 
 Based on the project description, you can focus on different areas:
 
-### 🎨 Frontend Development
+### Frontend Development
 **Goal**: Create a user-friendly interface
 
 **Tasks to implement**:
@@ -73,7 +77,7 @@ Based on the project description, you can focus on different areas:
 
 **Skills you'll learn**: WPF, XAML, UI/UX design, data binding
 
-### ⚙️ Backend Development
+### Backend Development
 **Goal**: Implement the core business logic
 
 **Tasks to implement**:
@@ -86,7 +90,7 @@ Based on the project description, you can focus on different areas:
 
 **Skills you'll learn**: C#, algorithms, data structures, database basics, design patterns
 
-### 🧪 Testing
+### Testing
 **Goal**: Ensure code quality through automated tests
 
 **Tasks to implement**:
@@ -97,7 +101,7 @@ Based on the project description, you can focus on different areas:
 
 **Skills you'll learn**: Unit testing, xUnit/NUnit, Test-Driven Development (TDD)
 
-### 🔄 CI/CD
+### CI/CD
 **Goal**: Automate build and test processes
 
 **Tasks to implement**:
@@ -117,7 +121,7 @@ This project uses the CommunityToolkit.Mvvm package (same as your team uses!) wh
 - **ObservableObject** - Base class for ViewModels
 - Study the `ExampleViewModel.cs` to see these in action!
 
-**📖 We have a complete guide!** See [COMMUNITYTOOLKIT_MVVM_GUIDE.md](COMMUNITYTOOLKIT_MVVM_GUIDE.md) for detailed examples and best practices.
+**We have a complete guide!** See [COMMUNITYTOOLKIT_MVVM_GUIDE.md](COMMUNITYTOOLKIT_MVVM_GUIDE.md) for detailed examples and best practices.
 
 Learn more: [CommunityToolkit.Mvvm Documentation](https://learn.microsoft.com/en-us/dotnet/communitytoolkit/mvvm/)
 
@@ -199,4 +203,4 @@ If you continue developing this:
 4. Add reporting features
 5. Create a web version using Blazor or ASP.NET
 
-Good luck, and have fun coding! 🚀
+Good luck, and have fun coding!
